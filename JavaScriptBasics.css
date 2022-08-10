@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 970px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #1B345D;
+}
+
+.header {
+    padding: 1em;
+    margin: 10px;
+    flex-basis: 100%;
+    color: #C0D3E7;
+    background-color: #CF3036;
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+    color: #C0D3E7;
+}
+
+.index {
+    padding: 20px;
+    margin: 10px;
+    flex-basis: 55%;
+    align-self: flex-start;
+    font-size: 12px;
+    background-color: #2A7D8C;
+    border-radius: 15px;
+}
+
+a { color: #60D1D2; }
+
+/* The HTML lists did not indent so margin was added twice due to the nested <ul>. */
+ul li { margin-left: 20px; }
+
+ul.indent li { margin-left: 40px; }
+
+h2 { padding: 5px; }
+
+.content {
+    padding: 20px 15px 15px 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #16222F;
+}
+
+.term { color: #5C73FF; }
+
+/* The 2 div.content items below were created because I was having trouble excluding <h2> from font-size: 12  and they both needed additional padding*/
+div.content p {
+    padding: 5px;
+    font-size: 12px;
+}
+
+div.content li {
+    padding: 5px;
+    font-size: 12px;
+}
+
+.footer {
+    margin: 10px;
+    padding: 20px;
+    font-size: 12px;
+    color: #C0D3E7;
+    border-radius: 20px;
+    background-color: #5D6673;
+}
